@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="shortcut icon" href="asset/img/logo.ico" type="image/x-icon">
+
+    <title>Landing Page</title>
+</head>
+<body>
+    <!-- nav -->
+    <nav class="border-gray-200 bg-gray-900 dark:bg-gray-900 dark:border-gray-700">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1">
+            <div class="flex items-center text-1xl space-x-3 rtl:space-x-reverse">
+               <img src="asset/img/logo.png" alt="logo" class="w-14 h-14 rounded-full">
+                <span class="self-center text-1xl font-semibold whitespace-nowrap text-white">ADR <span class="text-yellow-300 dark:text-yellow">Tech</span></span>
+            </div>
+            <button data-collapse-toggle="navbar-solid-bg" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-solid-bg" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class=" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full text-white md:block md:w-auto " id="navbar-solid-bg">
+                <ul
+                    class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+                    <li>
+                        <a href="#home"
+                            class="block py-2 px-3 md:p-0 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                            aria-current="page">Home</a>
+                    </li>
+                     <li>
+                        <a href="#about"
+                        class="block py-2 px-3 md:p-0 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                    </li>
+                    <li>
+                        <a href="#service"
+                            class="block py-2 px-3 md:p-0 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                            aria-current="page">Service</a>
+                    </li>
+                   
+                    <li>
+                        <a href="#portofolio"
+                            class="block py-2 px-3 md:p-0 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                            aria-current="page">Portofolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact"
+                            class="block py-2 px-3 md:p-0 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home -->
+    <section class="home" id="home">
+        <section class="bg-white dark:bg-gray-800">
+            <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+                <div class="mr-auto place-self-center lg:col-span-7">
+                    <h1 class="max-w-1xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+                        We focus on <span class="text-purple-600 dark:text-purple-500">creating sales</span> or <span class="text-purple-600 dark:text-purple-500">company</span> websites.
+                    </h1>
+                    <p class="max-w-1xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                        At ADR TECH we work with a team of professionals and experts in website creation.
+                    </p>
+                    <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4 gap-2">
+                        <a href="#contact" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-purple-600 rounded-lg hover:bg-purple-700 focus:ring-4 focus:ring-purple-300 dark:focus:ring-purple-900">
+                            Contact Us
+                        </a>
+                        <a href="#portofolio" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                            Our Portfolio
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden lg:mt-0 lg:col-span-5 lg:flex items-center justify-center">
+                    <img src="asset/img/web.png" alt="Team collaboration" class="rounded-full w-96 h-96 object-fill">
+                    </div>
+            </div>
+        </section>
+    </section>
+    
+
+
+    <!-- About -->
+    <section class="about" id="about">
+        <section class="bg-white py-8 lg:py-16 dark:bg-gray-900">
+            <div class="max-w-screen-xl px-4 mx-auto lg:px-6 ">
+                <div class="grid gap-8 lg:grid-cols-2">
+
+                    <div>
+                        <img class="rounded-lg object-cover w-96 h-96" src="asset/img/team.png" alt="Tim Kami">
+                    </div>
+                    
+                    <div class="mr-auto place-self-center">
+                        <h2 class="flex justify-end mr-2 mb-2 text-2xl leading-tight text-gray-900 dark:text-white">About</h2>
+                        <h2 class="flex justify-end mr-2 mb-4 text-3xl font-extrabold leading-tight text-gray-900 dark:text-white">Who are we?</h2>
+                        <p class="mb-4 font-light text-gray-500 dark:text-gray-400 md:text-lg">We’re a dedicated team of We are a team of professionals who are experts in creating modern, responsive, and high-quality websites. With years of experience in web development, UI/UX design, and the latest digital technologies, we are here to help your business stand out in the online world.
+                        </p>
+                        <p class="font-light text-gray-500 dark:text-gray-400 md:text-lg">Our mission is to provide you with a website that not only looks great but also functions seamlessly. We understand that your website is often the first impression potential customers have of your business, and we take that responsibility seriously.
+                        We believe that every website should reflect the unique identity of your brand. Therefore, we combine creativity, technical expertise, and digital strategy to create solutions that are not only visually appealing, but also effective in achieving your business goals.</p>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- service -->
+    <section class="service" id="service">
+        <section class="bg-white py-8 dark:bg-gray-800  lg:py-16">
+            <div class="max-w-screen-xl px-4 mx-auto lg:px-6">
+                <h2 class="mb-4 text-2xl leading-tight text-gray-900 dark:text-white">Our Services</h2>
+                <div class="mb-8 ">
+                    <h2 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white">What can we do for you?</h2>
+                </div>
+                <div class="grid gap-6 mb-6 md:grid-cols-2 lg:grid-cols-3">
+                    <div class="bg-gray-50 dark:bg-gray-900 rounded-lg p-6 text-center">
+                        <div class="flex justify-center items-center mb-4">
+                            <i class="fa fa-desktop fa-2x text-gray-400 dark:text-gray-400" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">Dekstop And Mobile Website Development</h3>
+                        <p class="font-light text-gray-500 dark:text-gray-400"></p>
+                    </div>
+                    <div class="bg-gray-50 dark:bg-gray-900 rounded-lg p-6 text-center">
+                        <div class="flex justify-center items-center mb-4">
+                            <i class="fa fa-database fa-2x text-gray-600 dark:text-gray-400" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">Data Processing, Analysis, And Reporting</h3>
+                        <p class="font-light text-gray-500 dark:text-gray-400"></p>
+                    </div>
+                    <div class="bg-gray-50 dark:bg-gray-900 rounded-lg p-6 text-center">
+                        <div class="flex justify-center items-center mb-4">
+                            <i class="fa fa-users fa-2x text-gray-400 dark:text-primary-500" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">Professionals Team</h3>
+                        <p class="font-light text-gray-500 dark:text-gray-400"></p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- testimoni -->
+    <section class="testimoni" id="testimoni">
+        
+
+        <div class="bg-gray-900 text-white py-10">
+            <h2 class="text-3xl font-bold text-center mb-4 pt-6">Testimoni</h2>
+
+            <div id="testimoni-carousel" class="relative w-full max-w-6xl mx-auto" data-carousel="static">
+              <div class="relative h-96 overflow-hidden rounded-lg md:h-72">
+               
+                
+                <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                    <div class="flex flex-col items-center justify-center h-full text-center px-6">
+                      <img src="asset/img/pp.png" class="object-cover w-20 h-20 rounded-full border-4 border-white shadow-lg mb-4" alt="Avatar">
+                      <span class="font-semibold text-lg mb-2">Andi, Jakarta</span>
+
+                      <p class="text-lg italic max-w-xl">"Layanan yang luar biasa! Tim sangat responsif dan profesional."</p>
+                    </div>
+                </div>
+          
+                
+                <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                    <div class="flex flex-col items-center justify-center h-full text-center px-6">
+                      <img src="asset/img/pp3.png" class="object-cover w-20 h-20 rounded-full border-4 border-white shadow-lg mb-4" alt="Avatar">
+                      <span class="font-semibold text-lg mb-2">Budi, Bandung</span>
+                      <p class="text-lg italic max-w-xl">"Pelayanan cepat dan hasil memuaskan. Akan kembali lagi!"</p>
+                    </div>
+                </div>
+          
+                <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                    <div class="flex flex-col items-center justify-center h-full text-center px-6">
+                      <img src="asset/img/pp2.png" class="object-cover w-20 h-20 rounded-full border-4 border-white shadow-lg mb-4" alt="Avatar">
+                      <span class="font-semibold text-lg mb-2">Lala, Pasuruan</span>
+                      <p class="text-lg italic max-w-xl">"Saya sangat puas dengan hasilnya. Sangat direkomendasikan!"</p>
+                    </div>
+                </div>
+              </div>
+          
+              <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none">
+                  <svg class="w-4 h-4 text-white rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                  </svg>
+                  <span class="sr-only">Previous</span>
+                </span>
+              </button>
+              <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none">
+                  <svg class="w-4 h-4 text-white rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                  </svg>
+                  <span class="sr-only">Next</span>
+                </span>
+              </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- portofolio -->
+    <section class="portofolio" id="portofolio">
+        <section class="bg-white py-8 dark:bg-gray-800 lg:py-16">
+            <div class="max-w-screen-xl px-4 mx-auto ">
+                <h2 class="flex mb-4 text-2xl justify-end leading-tight text-gray-900 dark:text-white">Portofolio</h2>
+                <div class="flex justify-end items-center mb-8">
+                    <div>
+                        <h2 class="text-3xl font-extrabold text-gray-900 dark:text-white">Our Latest Work</h2>
+                    </div>
+                </div>
+                <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-2">
+                    <div class="relative rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-800">
+                        <img src="asset/img/simpleonlineshop.png" alt="Project 1" class="w-full h-full">
+                    </div>
+                    <div class="relative rounded-lg overflow-hidden bg-purple-100 dark:bg-purple-800">
+                        <img src="asset/img/validasi.png" alt="Project 2" class="w-full h-full">
+                    </div>
+                    <div class="relative rounded-lg overflow-hidden bg-orange-100 dark:bg-orange-800">
+                        <img src="asset/img/webukk10.png" alt="Project 3" class="w-full h-full">
+                    </div>
+                    <div class="relative items-center rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-800">
+                        <img src="asset/img/portofolio.png" alt="Project 4" class="w-full h-full">
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </section>
+
+        <!-- contact -->
+    <section class="contact" id="contact">
+        <section class="bg-white py-8 dark:bg-gray-900 lg:py-16">
+            <div class="py-8 lg:py-29 px-4 mx-auto max-h-full max-w-screen-md">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
+                    Contact Us
+                </h2>
+            
+                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-6 lg:mb-8">
+                    <p class="max-w-xl font-light text-gray-500 md:text-md lg:text-md dark:text-gray-400">
+                      Have a project in mind that you think we'd be a great fit for? We'd love to hear what you're thinking and build something great.
+                    </p>
+                    
+                    <button onclick="openModal()" class="mt-4 sm:mt-0 sm:ml-4 py-2 px-4 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg">
+                      Contact Us
+                    </button>
+                </div>
+                  
+            </div>
+            
+        </section>
+
+    </section>
+
+    <!-- contact pop-up -->
+    <section class="contact" id="contact">
+        <div id="contactModal" class="fixed pt-6 inset-0 z-50 hidden bg-black bg-opacity-50 flex items-center justify-center">
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg w-full max-w-4xl p-6 relative">
+          
+              <section class="pt-2 pb-4">
+                <div class="px-4 mx-auto max-w-screen-md">
+                  <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us</h2>
+                  <p class="max-w-1xl mb-6 font-light text-gray-500 lg:mb-8 md:text-md lg:text-md dark:text-gray-400">
+                    Have a project in mind that you think we'd be a great fit for? We'd love to hear what you're thinking and build something great.
+                  </p>
+                  <form id="contact-form" action="https://formspree.io/f/mpwdqezk" method="POST" class="space-y-6">
+                    <div class="relative">
+                      <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Username</label>
+                      <input type="text" id="name" name="name" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm dark:bg-gray-700 dark:border-gray-600 dark:text-white" placeholder="Username">
+                      <p id="error-name" class="mt-1 text-sm text-red-500"></p>
+                    </div>
+                    <div class="relative">
+                      <label for="Email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+                      <input type="email" id="Email" name="Email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:text-white" placeholder="example@gmail.com">
+                      <p id="error-email" class="mt-1 text-sm text-red-500"></p>
+                    </div>
+                    <div class="relative">
+                      <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Message</label>
+                      <textarea id="message" name="message" rows="5" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 dark:bg-gray-700 dark:border-gray-600 dark:text-white" placeholder="Leave a message..."></textarea>
+                      <p id="error-message" class="mt-1 text-sm text-red-500"></p>
+                    </div>
+                    <button type="submit" class="w-xl py-3 px-5 text-sm font-medium text-white bg-blue-700 hover:bg-blue-800 rounded-lg dark:bg-blue-600 dark:hover:bg-blue-700">Kirim Pesan</button>
+                    <button onclick="closeModal()" class="w-xl py-3 px-5 text-sm font-medium text-white bg-red-600 hover:bg-red-900 rounded-lg dark:bg-red-600 dark:hover:bg-red-900">Tutup</button>
+                  </form>
+                </div>
+              </section>
+            </div>
+        </div>
+          
+    </section> 
+
+    <div id="popup-success" tabindex="-1" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+        <div class="relative p-4 w-full max-w-md max-h-full">
+        <div class="relative bg-white rounded-lg shadow-sm dark:bg-gray-600">
+            <button type="button" class="absolute top-3 end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="popup-success">
+            <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/></svg>
+            <span class="sr-only">Close</span>
+            </button>
+            <div class="p-4 md:p-5 text-center">
+            <svg class="mx-auto mb-4 text-green-500 w-12 h-12 dark:text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+            </svg>
+            <h3 class="mb-5 text-lg font-normal text-gray-700 dark:text-gray-300">Pesan kamu berhasil dikirim!</h3>
+            <button data-modal-hide="popup-success" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Tutup</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+
+    
+
+    
+
+    <footer class="bg-white border-t border-gray-200 shadow-sm dark:bg-gray-900">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+            <div class="mb-6 md:mb-0">
+                <a href="" class="flex items-center">
+                    <img src="asset/img/logo.png" class="h-16 me-2" alt="company Logo" />
+                    <span class="text-md self-center font-semibold whitespace-nowrap text-white">ADR <span
+                        class="self-center font-semibold whitespace-nowrap text-yellow-300 dark:text-yellow">Tech</span>
+                    </span>               
+             </a>
+            </div>
+            <div class="grid grid-cols-2 gap-8  sm:gap-6 sm:grid-cols-3">
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Links</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="#about" class="hover:underline">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#portofolio" class="hover:underline">Portofolio</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="https://github.com/AndriYTC" target="_blank" class="hover:underline ">Github</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/andri.ytn_?igsh=eW5idHA0amlxaWtp" target="_blank" class="hover:underline">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="cursor-not-allowed" onclick="return false;" aria-disabled="true">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="cursor-not-allowed" onclick="return false;" aria-disabled="true">Terms &amp; Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <span class="text-sm self-center font-semibold whitespace-nowrap text-white">©2025 . ADRx<span
+                class="self-center font-semibold whitespace-nowrap text-yellow-300 dark:text-yellow">Dev</span> All Rights Reserved.
+            </span>
+            <div class="flex mt-4 sm:justify-center sm:mt-0">
+                <a href="https://www.instagram.com/andri.ytn_?igsh=eW5idHA0amlxaWtp" target="_blank" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                    <i class="fab fa-instagram text-gray-400 dark:text-primary-500" ></i>
+                </a>
+                <a href="https://github.com/AndriYTC" target="_blank" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                    <i class="fab fa-github text-gray-400 dark:text-primary-500" ></i>
+
+                </a>
+                <a href="https://wa.me/0895621133056?text=Halo%20saya%20tertarik%20dengan%20website%20Anda
+                " target="_blank" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                    <i class="fab fa-whatsapp text-gray-400 dark:text-primary-500" ></i>
+                </a>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <script src="asset/backend/script.js"></script>
+</body>
+</html>
